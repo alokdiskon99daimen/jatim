@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(255, 237, 241);
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+}
+hr {
+    border: 1px solid pink;
+    
+}
+
+.foto{
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    background-image: url('bg.jpg');
+    background-size: 100% 250%;
+}
+
+.jawa{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.judul{
+    text-align: center;
+}
+
+.biodata {
+    display: block;
+    text-align: center;
+    background-image: url('bg2.jpeg');
+    background-size: 100% ;
+    padding: 15px 0 15px 0;
+}
+
+.deskripsi{
+    background-image: url('bg3.jpeg');
+    background-size: 100% ;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+
+}
+
+.txtdesk {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.riwayat {
+    background-image: url('bg6.jpeg');
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+.table table {
+    width: 80%;
+}
+
+.vid {
+    background-image: url('bg2.jpeg');
+    background-size: 100%;
+    background-position-y: bottom ;
+    text-align: center;
+}
+.video {
+    display: flex;
+    justify-content: center;
+}
